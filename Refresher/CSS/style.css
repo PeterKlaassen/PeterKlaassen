@@ -1,0 +1,152 @@
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: 
+    'h h h h h h h h'
+    'm m m m m m m m'
+    'm m m m m m m m'
+    'm m m m m m m m'
+    'm m m m m m m m'
+    'm m m m m m m m'
+    'm m m m m m m m'
+    'f f f f f f f f';
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  height: 100%;
+}
+
+.button {
+  background-color: #fff;
+  border-radius: 6px;
+  border-spacing: 0;
+  cursor: pointer;
+  display: inline;
+  font-size: 18px;
+  margin: -6px 16px;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button1 {
+  border: 2px solid #46e246;
+  border-right: 0px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  color: rgb(70, 226, 70);
+  float: left;
+  margin-right: 0;
+}
+
+.button2 {
+  border: 2px solid #ff0000;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  color: #ff0000;
+  float: right;
+  margin-left: 0px;
+}
+
+.div1 > .button1:not(:last-child) {
+  margin-left: 30.9px;
+}
+
+.div1 > .button2:not(:first-child) {
+  margin-right: 30.9px;
+}
+
+.container > div {
+  border: 1.9px solid #cad3dde3;
+  border-radius: 6px;
+  box-shadow: 1px;
+  display: grid;
+  height: 235px;
+  margin-right: 20px;
+  width: 395px;
+}
+
+.div1 {
+  font-size: 0;
+}
+
+.h3header {
+  grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-start: 1;
+  margin-top: 10px;
+}
+
+.img-position {
+  height: 50px;
+  position: relative;
+  right: -325px;
+  top: -195px;
+}
+
+.img-position2 {
+  height: 50px;
+  position: relative;
+  right: -325px;
+  top: -195px;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+
+header {
+  grid-area: h;
+}
+
+.hrnew1 {
+  border-top: 1px rgba(226, 222, 222, 0.808);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+main {
+  grid-area: m;
+}
+
+footer {
+  grid-area: f;
+}
+
+.section1 {
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.7em;
+  margin: 15px;
+}
+
+.section2 {
+  color: #979797e7;
+  font-family: Arial;
+  font-size: 19px;
+  margin: 15px;
+}
+
+.section3 {
+  color: #3b3a3a;
+  font-family: Arial;
+  font-size: 19px;
+  margin: 15px;
+}
+
+.section4 {
+  color: #3b3a3a;
+  font-family: Arial;
+  font-size: 19px;
+  margin: 15px;
+}
+
+.span1 {
+  font-weight: bold;
+}
