@@ -1,0 +1,34 @@
+a {
+  color: rgb(8, 17, 97);
+  text-decoration: none;
+}
+
+input:focus  {
+  color: green;
+  font-size: 20px;
+}
+
+.li-active a:active {
+  text-decoration: none;
+  color: red;
+  font-weight: italic;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: lightblue;
+  font-weight: bold;
+}
+
+.li-visited a:visited {
+  text-decoration: none;
+  color: rgb(255, 230, 6);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
