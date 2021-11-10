@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+
+body {
+  background:#231F20;
+  text-align:center;
+}
+
+h1 {
+  color:#FFF;
+  font-family:'Oswald';
+  font-weight:700;
+  position:relative;  
+  margin:30px auto;
+  text-transform:uppercase;
+  width:520px;
+}
+
+h1::before {
+  content:'';
+  background:#4A90E2;
+  display:inline block;
+  position: absolute;
+  top: 52%;
+  left: 1%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  border-radius: 150px 0px 0px 150px;
+  background-color: #4A90E2;
+}
+
+h1::after {
+  content:'';
+  background:#4A90E2;
+  display:inline block;
+  position: absolute;
+  top: 52%;
+  left: 1%;
+  transform: translate(+1640%, -50%);
+  height: 30px;
+  width: 30px;
+  border-radius: 0px 150px 150px 0px;
+  background-color: #4A90E2;
+}
+
+
+
+
+
+selector for the left semicircle, selector for the right semicircle {
+  /* properties of both semicircles:  */
+  /* - Winc-blue background ... background:#4A90E2; */
+  /* - content is empty string  */
+  /* - display... block? Inline-block? */
+  /* - how many px should the height be? */
+  /* - how many px should the width be? */
+  /* - absolute position */
+}
+
+selector for the left semicircle {  
+  /* border radius, generator: <http://border-radius.com/> */
+  /* Position your semicircle using left and top */
+}
+
+selector for the right semicircle {  
+  /* border radius, generator: <http://border-radius.com/> */
+  /* Position your semicircle using left and top */
+}
