@@ -1,0 +1,21 @@
+/* Featured Section */
+.featured {
+  padding: $padding;
+
+  .featured .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #featured .image img {
+    width: 300px;
+  }
+
+  .text-featured {
+    @include constants($padding, $maxwidht, $text-align);
+  }
+
+  .text-featured p {
+    @include constants($text-align-p, $padding-bottom, $line-height);
+  }
+}

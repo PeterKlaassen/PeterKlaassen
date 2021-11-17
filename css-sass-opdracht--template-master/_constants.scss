@@ -1,0 +1,28 @@
+$padding: 20px;
+$background: #c0eea9;
+$line-background-color: #000;
+
+$maxwidth: 700px;
+$text-align: center;
+$text-align-p: justify;
+$padding-bottom: 1em;
+$line-height: 1.4em;
+
+/* same text styling hero, featured and about. (reffered as: hfr) */
+
+@mixin hfr(
+  $padding,
+  $max-width,
+  $text-align,
+  $padding,
+  $padding-bottom,
+  $line-height,
+  $text-align-p
+) {
+  padding: $padding;
+  max-width: $maxwidth;
+  text-align: $text-align;
+  padding-bottom: $padding-bottom;
+  line-height: $line-height;
+  text-align: $text-align-p;
+}

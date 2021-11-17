@@ -1,0 +1,35 @@
+/* About Section */
+
+.text-about {
+  @include constants($padding, $maxwidht, $text-align);
+
+  .text-about p {
+    @include constants($text-align-p, $padding-bottom, $line-height);
+  }
+
+  .about {
+    background-color: $background;
+    padding: $padding;
+  }
+
+  .about .wrapper {
+    display: flex;
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 33.25%;
+    overflow: hidden;
+    align-self: center;
+    flex: 2 0 55%;
+    margin: 1.4em 0;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

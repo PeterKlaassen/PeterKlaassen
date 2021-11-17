@@ -1,0 +1,19 @@
+/* Contact Section */
+
+.contact {
+  padding: 20px;
+
+  .wrapper .contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form-wrapper,
+  .contact-wrapper {
+    padding: 20px;
+  }
+
+  .copy-wrapper {
+    padding-left: 20px;
+  }
+}
