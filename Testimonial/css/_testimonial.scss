@@ -1,0 +1,24 @@
+.testimonial-container {
+  display: $display;
+  max-width: 1500px;
+}
+
+.testimonial {
+  background-color: $color-white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px #00000067, 0 6px 6px #00000023;
+  max-width: 100%;
+  overflow: hidden;
+  width: 400px;
+}
+
+.testimonial-body {
+  padding: 36px 36px 76px;
+}
+
+.testimonial-body p {
+  color: #494848;
+  font-size: 20px;
+  line-height: 36px;
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+@import "./_variables";
+@import "./_social-media";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: $align-items;
+  background: #c3cfe2;
+  display: $display;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}

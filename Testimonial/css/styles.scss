@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=roboto");
+
+@import "./_variables";
+@import "./_testimonial";
+@import "./_testimonial-footer";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: #c3cfe2;
+  display: $display;
+  flex-direction: column;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
