@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./CSS/resetStylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Changa"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMDB Movie Finder</title>
+    <script defer type="text/javascript" src="movies.js" ?speed="2"></script>
+    <script defer type="text/javascript" src="script.js" ?speed="2"></script>
+  </head>
+  <body>
+    <header class="header">
+      <p>IMDB Movie Finder</p>
+      <nav>
+        <div class="radioHolder" id="radioHolder">
+          <input
+            class="radioinput"
+            type="radio"
+            id="latestmovies"
+            name="movies"
+            value="Latest"
+          />
+          <label class="label" for="latestmovies">2014 or newer</label>
+          <input
+            type="radio"
+            id="avengermovies"
+            name="movies"
+            value="Avenger"
+          />
+          <label class="label" for="avengermovies">Avenger</label>
+          <br />
+          <input type="radio" id="xmenmovies" name="movies" value="X-Men" />
+
+          <label class="label" for="xmenmovies">X-men</label>
+          <input
+            type="radio"
+            id="princessmovies"
+            name="movies"
+            value="Princess"
+          />
+          <label class="label" for="princessmovies">Princess</label>
+          <input type="radio" id="batmanmovies" name="movies" value="Batman" />
+          <label class="label" for="batmanmovies">Batman</label>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="inputHolder">
+        <form role="search">
+          <input
+            autocomplete="off"
+            type="search"
+            id="searchbar"
+            name="searchbar"
+            placeholder="Search title, start with a capital letter please ..."
+            size="50"
+            spellcheck="false"
+          />
+        </form>
+      </div>
+    </header>
+    <main class="main">
+      <div class="movieContainer" id="movieContainer">
+        <ul class="allMovies" id="allMovies"></ul>
+      </div>
+    </main>
+  </body>
+</html>
